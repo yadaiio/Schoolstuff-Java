@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Weizenkornlegende {
     public static void main(String[] args) {
 
-        //Abfrage Nummer und geschätztes Gewicht
+        //Abfrage Anzahl der Körner und geschätztes Gewicht (Anzahl der Körner ist die Nummer des Sacks)
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Bitte geben Sie die Anzahl der Körner an.");
         String eingabe = myScanner.nextLine().replace(",",".");
