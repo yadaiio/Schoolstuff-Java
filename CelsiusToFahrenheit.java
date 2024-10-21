@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CelsiusToFahrenheit {
+public class CelsiusToFahrenheitOrKelvin {
     public static void main(String[] args) {
 
         //Begrüßungstext
