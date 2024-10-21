@@ -5,8 +5,8 @@ public class Weizenkornlegende {
 
         //Abfrage Anzahl der Körner und geschätztes Gewicht (Anzahl der Körner ist die Nummer des Sacks)
         Scanner myScanner = new Scanner(System.in);
-        System.out.println("Bitte geben Sie die Anzahl der Körner an.");
-        String eingabe = myScanner.nextLine().replace(",",".");
+        System.out.println("Bitte geben Sie die Nummer ihres Körnersacks an.");
+        String eingabe = myScanner.nextLine();
 
         //Parsen
         double eingabeZahl = Double.parseDouble(eingabe);
