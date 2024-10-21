@@ -35,6 +35,6 @@ public class Weizenkornlegende {
         }
         myScanner.close();
 
-        System.out.println("Das wahre Gewicht beträgt: "+gewichtKoerner);
+        System.out.println("Das wahre Gewicht beträgt: "+gewichtKoerner+ "kg.");
     }
 }
