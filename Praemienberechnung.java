@@ -11,7 +11,7 @@ public class Praemienberechnung {
         //Parsen in Integer
         int jahreszahl = Integer.parseInt(jahre);
 
-        //Abfrage ob man 5 Jahre oder länger deer Firma zugehörig ist
+        //Abfrage nach Krankheit
         if(jahreszahl >= 5) {
             System.out.println("Haben Sie eine Körperbehinderung? (J/N)");
             String antwort = myScanner.nextLine();
