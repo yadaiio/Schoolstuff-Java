@@ -24,7 +24,7 @@ public class Praemienberechnung {
                             
             int zahl = Integer.parseInt(auswahl);
             
-            if(antwort == "J") {
+            if(antwort.equals("J")) {
                 if(zahl == 1) {
                     praemie = 125;
                 } else if(zahl == 2) {
@@ -45,7 +45,7 @@ public class Praemienberechnung {
         System.out.println("Waren Sie im Ausendienst tätig? (J/N)");
         String außen = myScanner.nextLine();
 
-        if(außen == "J") {
+        if(außen.equals("J")) {
             praemie = praemie+100;
         } else {
             System.out.println("Kein Außendienst");
@@ -55,7 +55,7 @@ public class Praemienberechnung {
         System.out.println("Waren Sie im Ausland tätig? (J/N)");
         String außland = myScanner.nextLine();
 
-        if(außland == "J") {
+        if(außland.equals("J")) {
             praemie = praemie+300;
         } else {
             System.out.println("Keine Auslandtätigkeit");
