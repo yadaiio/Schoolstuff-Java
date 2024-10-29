@@ -1,4 +1,4 @@
-public class Quicknotes {
+public class BerechnungFlaeche {
 
     static void berechneFlaeche(double laenge) {
         System.out.println("Der Flascheninhalt beträgt "+(laenge*laenge));
