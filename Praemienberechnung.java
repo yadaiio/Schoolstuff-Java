@@ -7,7 +7,6 @@ public class Praemienberechnung {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Bitte geben Sie in Jahren an wie lange Sie dem Unternehmen zugehörig sind:");
         String jahre = myScanner.nextLine();
-        myScanner.close();
 
         //Parsen in Integer
         int jahreszahl = Integer.parseInt(jahre);
